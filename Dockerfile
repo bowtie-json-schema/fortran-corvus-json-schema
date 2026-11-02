@@ -1,6 +1,6 @@
 # The C library and the Fortran binding, as released (src-rs/corvus-json-schema-capi and src-fortran/corvus-json-schema
 # in Corvus.JsonSchema). Their versions are these tags, which Dependabot keeps up to date.
-FROM ghcr.io/corvus-dotnet/corvus-json-schema-c:0.1.4 AS corvus
+FROM ghcr.io/corvus-dotnet/corvus-json-schema-c:0.1.5 AS corvus
 FROM ghcr.io/corvus-dotnet/corvus-json-schema-fortran:0.1.0 AS binding
 
 FROM alpine:3.24 AS build
